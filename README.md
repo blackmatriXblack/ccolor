@@ -1,4 +1,4 @@
-# 🎨 ColorMix Suite – Comprehensive Technical Documentation
+# 🎨 ColorMix Suite – 
 
 ## 1. Executive Summary
 **ColorMix** is a dual-modality, zero-dependency color computation and visualization suite engineered entirely in pure C. It provides two distinct execution paradigms: a lightweight, cross-platform command-line interface (`colormix.c`) and a native Windows desktop application (`colormix_gui.c`). Both binaries share an identical 32-color palette, a deterministic RGB averaging algorithm, and a nearest-neighbor color matching engine. The CLI version leverages ANSI TrueColor escape sequences for terminal rendering, making it ideal for scripting, automation, and headless environments. The GUI version utilizes the Win32 API and GDI to deliver an interactive, real-time color mixing workspace with dynamic ratio control, custom swatch rendering, and contextual metadata display. Designed for developers, designers, and systems programmers, the suite emphasizes explicit memory management, predictable computational complexity, and strict separation between mathematical logic and presentation layers.
